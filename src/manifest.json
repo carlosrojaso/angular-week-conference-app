@@ -1,6 +1,6 @@
 {
-  "name": "Ionic Conference",
-  "short_name": "Ionic Conf",
+  "name": "Angular Week",
+  "short_name": "Angular Week",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
@@ -8,6 +8,6 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#387ef5",
-  "theme_color": "#387ef5"
+  "background_color": "#6EB43E",
+  "theme_color": "#6EB43E"
 }
