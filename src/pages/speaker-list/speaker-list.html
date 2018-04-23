@@ -29,21 +29,17 @@
                 <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
                   <h3>{{session.name}}</h3>
                 </button>
-
-                <button ion-item (click)="goToSpeakerDetail(speaker)">
-                  <h3>Sobre {{speaker.name}}</h3>
-                </button>
               </ion-list>
             </ion-card-content>
 
             <ion-row no-padding>
-              <ion-col col-12 col-lg-auto text-center text-lg-left>
+              <ion-col col-6 col-lg-auto text-center text-lg-left>
                 <button ion-button clear small color="primary" icon-start (click)="goToSpeakerTwitter(speaker)">
                   <ion-icon name="logo-twitter"></ion-icon>
                   Tweet
                 </button>
               </ion-col>
-              <ion-col col-12 col-lg-auto text-center>
+              <ion-col col-6 col-lg-auto text-center>
                 <button ion-button clear small color="primary" icon-start (click)="openSpeakerShare(speaker)">
                   <ion-icon name='share-alt'></ion-icon>
                   Share
